@@ -27,16 +27,6 @@
         };
     };
 
-    macros {
-        demo: demo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>, <&kp D &kp E &kp M &kp O>;
-
-            label = "DEMO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
